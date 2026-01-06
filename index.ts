@@ -1,8 +1,10 @@
 import { groqService } from "./services/groq";
+import { geminiService } from "./services/gemini";
 import type { AIService, ChatMessage } from "./types";
 
 const services: AIService[] = [
     groqService,
+    geminiService,
 ];
 
 let currentServiceIndex = 0;
