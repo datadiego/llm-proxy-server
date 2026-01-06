@@ -1,3 +1,5 @@
+import { AIService, ChatMessage } from '../types';
+
 import {
   GoogleGenAI,
 } from '@google/genai';
