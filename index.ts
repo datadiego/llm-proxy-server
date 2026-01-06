@@ -1,5 +1,5 @@
 import { groqService } from "./services/groq";
-import { AIService, ChatMessage } from "./types";
+import type { AIService, ChatMessage } from "./types";
 
 const services: AIService[] = [
     groqService,
